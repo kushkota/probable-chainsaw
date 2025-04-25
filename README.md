@@ -17,9 +17,23 @@ Restart the system
 ![username](https://github.com/user-attachments/assets/a3b679f5-c66b-4353-bb59-2dd89659d78f)
 
 # Using Windows Terminal
+
+Windows Terminal
+```python
+# First update the Windows Subsystem for Linux package.
+>wsl --update
+
+# Check to see the state of your instance (RUNNING | STOPPED)
+>wsl --list --verbose
+
+>wsl --status
+```
+
+
 ![update](https://github.com/user-attachments/assets/7bb5fa81-8743-4017-a5e8-375b0be1ec46)
 
 # Using the wsl.exe tool
+
 ![wsl](https://github.com/user-attachments/assets/a4527805-ed7e-4caf-ba02-8e9f772311ed)
 
 
