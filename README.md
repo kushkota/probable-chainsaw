@@ -1,7 +1,7 @@
 # probable-chainsaw
 Passion for technology preferably on WSL
 
-# Enabling WSL on your Windows System
+# Enabling WSL on your Windows System, specifically WSL2
 
 Make sure the box is checked.
 1. Windows Subsystem for Linux
