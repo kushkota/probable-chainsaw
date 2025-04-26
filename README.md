@@ -16,9 +16,14 @@ Restart the system
 
 ![username](https://github.com/user-attachments/assets/a3b679f5-c66b-4353-bb59-2dd89659d78f)
 
-# Using Windows Terminal
+# Using Windows cmd.exe
 
-Windows Terminal
+run prompt | `"windows" key + r`
+
+Open: `cmd`
+
+
+
 ```python
 # First update the Windows Subsystem for Linux package.
 >wsl --update
@@ -30,9 +35,14 @@ Windows Terminal
 ```
 
 
-![update](https://github.com/user-attachments/assets/7bb5fa81-8743-4017-a5e8-375b0be1ec46)
 
 # Using the wsl.exe tool
+
+wsl.exe from Windows cmd.exe will open on `/mnt/c` Windows file system.
+You want it to open in your Linux home directory. It is important to understand when you work inside `/mnt/c` you're interacting with Windows files.
+
+`wsl.exe ~`
+
 
 ![wsl](https://github.com/user-attachments/assets/a4527805-ed7e-4caf-ba02-8e9f772311ed)
 
