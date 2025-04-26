@@ -1,7 +1,7 @@
 # probable-chainsaw
 Passion for technology preferably on WSL
 
-# Enabling WSL on your Windows System, specifically WSL2
+## Enabling WSL on your Windows System, specifically WSL2
 
 Make sure the box is checked.
 1. Windows Subsystem for Linux
@@ -11,12 +11,12 @@ Make sure the box is checked.
 
 Restart the system
 
-# Installing a Linux distribution
+## Installing a Linux distribution
 
 
 ![username](https://github.com/user-attachments/assets/a3b679f5-c66b-4353-bb59-2dd89659d78f)
 
-# Using Windows cmd.exe
+## Using Windows cmd.exe
 
 run prompt | `"windows" key + r`
 
@@ -36,7 +36,7 @@ Open: `cmd`
 
 
 
-# Using the wsl.exe tool
+## Using the wsl.exe tool
 
 wsl.exe from Windows cmd.exe will open on `/mnt/c` Windows file system.
 You want it to open in your Linux home directory. It is important to understand when you work inside `/mnt/c` you're interacting with Windows files.
@@ -69,16 +69,16 @@ Results:
 
 * From the perspective of the Windows host, the Linux environment in WSL is still accessed using `localhost`, which is the default network lookback address (127.0.0.1).
 
-Using GUI apps invoking via WSL2 
+## Using GUI apps invoking via WSL2 
 
-## This change version control is coming from VS code Mac
+This change version control is coming from VS code Mac
 
 
-` python
+```python
 
 # adding a comment here from Windows path of executable
-
-`
+learnwsl@myWSL:~$ /mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe
+```
 
 
 
