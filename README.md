@@ -46,6 +46,32 @@ You want it to open in your Linux home directory. It is important to understand 
 
 ![wsl](https://github.com/user-attachments/assets/a4527805-ed7e-4caf-ba02-8e9f772311ed)
 
+# Distribution configuration with wsl.config
+
+
+
+Customize the Linux system's host name within WSL rather than using the defaults, which is the Windows PC name.
+
+1. Edit Configuration File:
+   - `sudo vim /etc/wsl.config`
+   - Add highlighted entry on the config file
+  
+![hostname](https://github.com/user-attachments/assets/11f575ca-0bf0-40e2-9cee-6aa603b262ca)
+
+
+3. Start fresh:
+   - Shut it down manually ( `wsl --shutdown` ) or,
+   - Wait for the system's virtual machine (VM) to automatically shutdown ( when no processes are running)
+
+Results:
+
+* Inside your Linux environment: The host name will appear as `myWSL
+
+* From the perspective of the Windows host, the Linux environment in WSL is still accessed using `localhost`, which is the default network lookback address (127.0.0.1).
+
+
+
+
 
 
 
