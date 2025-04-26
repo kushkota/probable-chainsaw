@@ -69,6 +69,16 @@ Results:
 
 * From the perspective of the Windows host, the Linux environment in WSL is still accessed using `localhost`, which is the default network lookback address (127.0.0.1).
 
+Using GUI apps invoking via WSL2 
+
+## This change version control is coming from VS code Mac
+
+
+` python
+
+# adding a comment here from Windows path of executable
+
+`
 
 
 
